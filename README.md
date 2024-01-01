@@ -26,4 +26,4 @@ Puedes instalar el plugin utilizando npm:
     // ...
     ```
 
-¡Y eso es todo! Ahora tus documentos de Mongoose se podrán convertir fácilmente en objetos JSON utilizando el método `toJSON()`.
+¡Y eso es todo! Ahora tus documentos de Mongoose se podrán convertir fácilmente en objetos JSON.
