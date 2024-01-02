@@ -34,5 +34,5 @@ class MongoosePluginToJson {
     deleteAtPath(obj[path[index]], path, index + 1);
   };
   
-  export default MongoosePluginToJson;
+  export default new MongoosePluginToJson().apply;
   

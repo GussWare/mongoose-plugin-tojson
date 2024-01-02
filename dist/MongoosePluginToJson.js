@@ -31,4 +31,4 @@ const deleteAtPath = (obj, path, index) => {
     }
     deleteAtPath(obj[path[index]], path, index + 1);
 };
-exports.default = MongoosePluginToJson;
+exports.default = new MongoosePluginToJson().apply;
