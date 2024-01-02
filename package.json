@@ -1,6 +1,6 @@
 {
   "name": "mongoose-plugin-tojson",
-  "version": "0.0.0-dev",
+  "version": "0.0.1-dev",
   "description": "Plugin que convierte una colección en json, quita valores como _id y los converte en id",
   "main": "dist/MongoosePluginToJson.js",
   "scripts": {
