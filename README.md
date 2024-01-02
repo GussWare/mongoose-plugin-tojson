@@ -18,12 +18,8 @@ Puedes instalar el plugin utilizando npm:
     const mongoose = require('mongoose');
     const toJSONPlugin = require('mongoose-plugin-tojson');
 
-    // ...
-
     // Aplica el plugin a tu esquema de Mongoose
     schema.plugin(toJSONPlugin);
-
-    // ...
     ```
 
 ¡Y eso es todo! Ahora tus documentos de Mongoose se podrán convertir fácilmente en objetos JSON.
